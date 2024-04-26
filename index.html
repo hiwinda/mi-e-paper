@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Paper</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Javascript -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/all.min.js"></script>
+    <script src="assets/js/fontawesome.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</head>
+
+<body>
+    <!-- START:: HEADER -->
+    <div class="mi-header">
+        <div class="mi-header_top">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md-4">
+                        <ul class="list-nav_left clearfix">
+                            <li>
+                                <a href="#" title="">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" title="">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-8">
+                        <ul class="list-nav_right clearfix">
+                            <li>
+                                <a href="#" title="">Category</a>
+                            </li>
+                            <li>
+                                <a href="#" title="">E-Paper</a>
+                            </li>
+                            <li>
+                                <a href="#" title="">Subscription History</a>
+                            </li>
+                            <li>
+                                <a href="#" title="">Interests</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mi-header_bottom navbar-expand-lg">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col">
+                        <a href="index.html" class="mi-header_logo" title="">
+                            <img src="./assets/images/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <div class="mi-header_ss">
+                            <div class="mi-header_search">
+                                <form class="form-search" action="">
+                                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn" type="submit">
+                                        <img src="./assets/images/search-line.svg" alt="" width="18">
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="mi-header_subscribe">
+                                <a href="#" class="btn-primary" title="">BERLANGGANAN</a>
+                            </div>
+                        </div>
+                        <div class="mi-header_tablet">
+                            <div class="mi-header_date">
+                                <span>Edisi hari:</span>
+                                <select name="" id="">
+                                    <option value="">16 Maret 2024</option>
+                                    <option value="">17 Maret 2024</option>
+                                    <option value="">18 Maret 2024</option>
+                                    <option value="">19 Maret 2024</option>
+                                    <option value="">20 Maret 2024</option>
+                                    <option value="">21 Maret 2024</option>
+                                </select>
+                            </div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-between">
+                    <div class="col">
+                        <div class="mi-header-main">
+                            <div class="mi-header_date">
+                                <span>Edisi hari:</span>
+                                <select name="" id="">
+                                    <option value="">16 Maret 2024</option>
+                                    <option value="">17 Maret 2024</option>
+                                    <option value="">18 Maret 2024</option>
+                                    <option value="">19 Maret 2024</option>
+                                    <option value="">20 Maret 2024</option>
+                                    <option value="">21 Maret 2024</option>
+                                </select>
+                            </div>
+                            <div class="mi-header_nav">
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2"
+                                    aria-labelledby="offcanvasNavbar2Label">
+                                    <div class="offcanvas-header">
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <ul class="mi-nav_main navbar-nav">
+                                            <li class="nav-item">
+                                                <a href="#" title="" class="nav-link">POLKAM</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#" title="" class="nav-link">FOKUS</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#" title="" class="nav-link">EKONOMI</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#" title="" class="nav-link">MEGAPOLITAN</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#" title="" class="nav-link">OPINI</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#" title="" class="nav-link">SUARA ANDA</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#" title="" class="nav-link">NUSANTARA</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#" title="" class="nav-link">HUMANIORA</a>
+                                            </li>
+                                        </ul>
+                                        <div class="mi-header_search">
+                                            <form class="form-search" action="">
+                                                <input class="form-control" type="search" placeholder="Search"
+                                                    aria-label="Search">
+                                                <button class="btn" type="submit">
+                                                    <img src="./assets/images/search-line.svg" alt="" width="18">
+                                                </button>
+                                            </form>
+                                        </div>
+                                        <div class="mi-header_subscribe">
+                                            <a href="#" class="btn-primary" title="">BERLANGGANAN</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END:: HEADER -->
+
+    <!-- START:: CONTENT WRAPPER -->
+    <div class="mi-content">
+        <div class="container">
+            <div class="ads-block">
+                <img src="./assets/images/ads_top.webp" alt="Top Ads">
+            </div>
+
+            <div class="mi-category-item">
+                <h2>FOKUS</h2>
+                <ul class="mi-ci-list">
+                    <li>
+                        <div class="item-horizontal">
+                            <div class="img-left">
+                                <a href="#" title=""><img src="https://placehold.co/68x68" alt=""></a>
+                            </div>
+                            <div class="desc-right">
+                                <h3><a href="#" title="">Mengusut Mafia Timah</a></h3>
+                                <span>10 Contents</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-horizontal">
+                            <div class="img-left">
+                                <a href="#" title=""><img src="https://placehold.co/68x68" alt=""></a>
+                            </div>
+                            <div class="desc-right">
+                                <h3><a href="#" title="">Kilau Ramadan</a></h3>
+                                <span>10 Contents</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-horizontal">
+                            <div class="img-left">
+                                <a href="#" title=""><img src="https://placehold.co/68x68" alt=""></a>
+                            </div>
+                            <div class="desc-right">
+                                <h3><a href="#" title="">Ledakan Gunung Amunisi</a></h3>
+                                <span>10 Contents</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-horizontal">
+                            <div class="img-left">
+                                <a href="#" title=""><img src="https://placehold.co/68x68" alt=""></a>
+                            </div>
+                            <div class="desc-right">
+                                <h3><a href="#" title="">Paskah</a></h3>
+                                <span>10 Contents</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mi-content_wrapper">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="main-article">
+                            <a href="#" title="" class="img-block">
+                                <img src="https://placehold.co/600x455" alt="">
+                            </a>
+                            <div class="desc-bottom">
+                                <h1>DBD belum Mereda, Angka Kematian Melonjak</h1>
+                                <div class="author">by <a href="#" title="">Mark Antonsen</a></div>
+                                <p>
+                                    Intro text we refine our methods of responsive web design, we’ve increasingly
+                                    focused on measure and its relationship
+                                    to how people read. Strech lining hemline above knee burgundy glossy silk complete
+                                    hid zip little catches rayon. Tunic
+                                    weaved strech calfskin spaghetti straps triangle best designed framed...
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="mi-headline_list">
+                            <ul class="list_3col">
+                                <li>
+                                    <a href="#" title="" class="img-block img-tagline">
+                                        <img src="https://placehold.co/230x175" alt="">
+                                        <span class="abs-tagline">Megapolitan</span>
+                                    </a>
+                                    <div class="desc-bottom">
+                                        <h3><a href="" title="">Kemendagri Nilai Sumsel Berhasil</a></h3>
+                                        <div class="author">by <a href="#" title="">Mark Antonsen</a></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" title="" class="img-block img-tagline">
+                                        <img src="https://placehold.co/230x175" alt="">
+                                        <span class="abs-tagline">Megapolitan</span>
+                                    </a>
+                                    <div class="desc-bottom">
+                                        <h3><a href="" title="">Kemendagri Nilai Sumsel Berhasil</a></h3>
+                                        <div class="author">by <a href="#" title="">Mark Antonsen</a></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" title="" class="img-block img-tagline">
+                                        <img src="https://placehold.co/230x175" alt="">
+                                        <span class="abs-tagline">Megapolitan</span>
+                                    </a>
+                                    <div class="desc-bottom">
+                                        <h3><a href="" title="">Kemendagri Nilai Sumsel Berhasil</a></h3>
+                                        <div class="author">by <a href="#" title="">Mark Antonsen</a></div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="#" title="" class="mi-link">Lihat Berita Headline Lainnya</a>
+                        </div>
+
+                        <div class="ads-block">
+                            <img src="./assets/images/ads_top.webp" alt="Top Ads">
+                        </div>
+
+                        <div class="mi-box-content">
+                            <div class="mi-bc_item mi-bc_intermeso">
+                                <h2>INTERMESO</h2>
+                                <div class="item-horizontal align-items-start">
+                                    <a href="#" title="" class="img-left">
+                                        <img src="https://placehold.co/340x235" alt="">
+                                    </a>
+                                    <div class="desc-right">
+                                        <h5><a href="#" title="">BIDASAN BAHASA</a></h5>
+                                        <h3><a href="#" title="">Permintaan Naik, Kemenkumham: E-Paspor Sudah Bisa
+                                                Diurus</a></h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Nullam et mi tincidunt lorem aliquam rutrum sit amet id elit.
+                                            Nullam sit amet tellus eu nulla dapibus rutrum
+                                        </p>
+                                        <a href="#" title="" class="mi-link">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mi-bc_item">
+                                <h2>ON THIS DAY</h2>
+                                <ul class="list_3col">
+                                    <li>
+                                        <a href="#" title="" class="img-block">
+                                            <img src="https://placehold.co/223x150" alt="">
+                                        </a>
+                                        <div class="desc-bottom">
+                                            <span class="date-gray">18 Maret 2007</span>
+                                            <h3><a href="" title="">Isu Peleburan KPK-Ombudsman Ditolak</a></h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="" class="img-block">
+                                            <img src="https://placehold.co/223x150" alt="">
+                                        </a>
+                                        <div class="desc-bottom">
+                                            <span class="date-gray">18 Maret 2007</span>
+                                            <h3><a href="" title="">Viral Seorang Kakek di Gunungkidul</a></h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="" class="img-block">
+                                            <img src="https://placehold.co/223x150" alt="">
+                                        </a>
+                                        <div class="desc-bottom">
+                                            <span class="date-gray">18 Maret 2007</span>
+                                            <h3><a href="" title="">KPK Kembali Gelar Ekspose Kasus Eks Wamenkumham</a>
+                                            </h3>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mi-bc_item">
+                                <h2>KARTUN</h2>
+                                <a href="#" title="" class="img-block">
+                                    <img src="./assets/images/kartun.webp" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mi-content_subscribe">
+                            <div class="mi-cs_text">
+                                <h5>Berlangganan Sekarang dan Dapatkan Full Akses ke Seluruh Konten E-Paper Media
+                                    Indonesia</h5>
+                                <a href="#" title="" class="btn-primary">BERLANGGANAN SEKARANG</a>
+                            </div>
+                        </div>
+
+                        <div class="mi-box-content">
+                            <div class="mi-bc_item mi-bc_special">
+                                <h2>EDISI KHUSUS: MENGAMATI KEMENANGAN PRABOWO GIBRAN</h2>
+                                <div class="item-horizontal align-items-start">
+                                    <a href="#" title="" class="img-left">
+                                        <img src="https://placehold.co/340x235" alt="">
+                                    </a>
+                                    <div class="desc-right">
+                                        <h3>
+                                            <a href="#" title="">Disindir ICW Gegara Eks Wamenkumham Muncul di MK</a>
+                                        </h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Nullam et mi tincidunt lorem aliquam rutrum sit amet id elit.
+                                            Nullam sit amet tellus eu nulla dapibus rutrum
+                                        </p>
+                                        <a href="#" title="" class="mi-link">Read More</a>
+                                    </div>
+                                </div>
+                                <ul class="list_2col">
+                                    <li class="item-horizontal">
+                                        <a href="#" title=""><img src="https://placehold.co/98x80" alt=""></a>
+                                        <div class="desc-right">
+                                            <h3><a href="#" title="">Bantah Ingin Rebut Kursi Ketua DPR</a></h3>
+                                        </div>
+                                    </li>
+                                    <li class="item-horizontal">
+                                        <a href="#" title=""><img src="https://placehold.co/98x80" alt=""></a>
+                                        <div class="desc-right">
+                                            <h3><a href="#" title="">Bobby Nasution Masuk Golkar</a></h3>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="mi-box-content">
+                            <div class="mi-bc_item mi-bc_special">
+                                <h2>CERPEN</h2>
+                                <div class="item-horizontal align-items-start">
+                                    <a href="#" title="" class="img-left">
+                                        <img src="https://placehold.co/340x235" alt="">
+                                    </a>
+                                    <div class="desc-right">
+                                        <h3>
+                                            <a href="#" title="">Waspada! Hujan Lebat Berpotensi Guyur 29 Provinsi di
+                                                Indonesia</a>
+                                        </h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Nullam et mi tincidunt lorem aliquam rutrum sit amet id elit.
+                                            Nullam sit amet tellus eu nulla dapibus rutrum
+                                        </p>
+                                        <a href="#" title="" class="mi-link">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mi-box-content">
+                            <div class="mi-bc_item mi-bc_special">
+                                <h2>PUNGGAWA BUMI</h2>
+                                <div class="item-horizontal align-items-start">
+                                    <a href="#" title="" class="img-left">
+                                        <img src="https://placehold.co/340x235" alt="">
+                                    </a>
+                                    <div class="desc-right">
+                                        <h3>
+                                            <a href="#" title="">Sopir Bus di Sleman Jalani Tes Kesehatan hingga
+                                                Narkoba</a>
+                                        </h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Nullam et mi tincidunt lorem aliquam rutrum sit amet id elit.
+                                            Nullam sit amet tellus eu nulla dapibus rutrum
+                                        </p>
+                                        <a href="#" title="" class="mi-link">Read More</a>
+                                    </div>
+                                </div>
+                                <ul class="list_2col">
+                                    <li class="item-horizontal">
+                                        <a href="#" title=""><img src="https://placehold.co/98x80" alt=""></a>
+                                        <div class="desc-right">
+                                            <h3><a href="#" title="">Bahar bin Smith Dilaporkan ke Polisi</a></h3>
+                                        </div>
+                                    </li>
+                                    <li class="item-horizontal">
+                                        <a href="#" title=""><img src="https://placehold.co/98x80" alt=""></a>
+                                        <div class="desc-right">
+                                            <h3><a href="#" title="">Nilai Tukar Petani Sumsel Naik 2,97%</a></h3>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="mi-sidebar">
+                            <h2>BERITA UTAMA</h2>
+                            <ul class="mi-sidebar_list">
+                                <li class="item-horizontal">
+                                    <a href="#" title="" class="img-left">
+                                        <img src="https://placehold.co/98x80" alt="">
+                                    </a>
+                                    <div class="desc-right">
+                                        <h3><a href="#" title="">Akhir Pekan, Cuaca Jakarta Berawan</a></h3>
+                                        <div class="sidebar-list_bottom">
+                                            <a href="#" title="" class="tagline">Megapolitan</a>
+                                            <div class="author author-sm">by <a href="#" title="">Mark Antonsen</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-horizontal">
+                                    <a href="#" title="" class="img-left">
+                                        <img src="https://placehold.co/98x80" alt="">
+                                    </a>
+                                    <div class="desc-right">
+                                        <h3><a href="#" title="">Heru Telah Temui Eks Warga Kampung Bayam</a></h3>
+                                        <div class="sidebar-list_bottom">
+                                            <a href="#" title="" class="tagline">Megapolitan</a>
+                                            <div class="author author-sm">by <a href="#" title="">Mark Antonsen</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-horizontal">
+                                    <a href="#" title="" class="img-left">
+                                        <img src="https://placehold.co/98x80" alt="">
+                                    </a>
+                                    <div class="desc-right">
+                                        <h3><a href="#" title="">Usai Program Sembako Murah Dipersoalkan</a></h3>
+                                        <div class="sidebar-list_bottom">
+                                            <a href="#" title="" class="tagline">Megapolitan</a>
+                                            <div class="author author-sm">by <a href="#" title="">Mark Antonsen</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="mi-sidebar-ads">
+                                    <a href="#" title="">
+                                        <img src="assets/images/ads-sidebar.webp" alt="" class="img-full">
+                                    </a>
+                                </li>
+                                <li class="item-horizontal">
+                                    <a href="#" title="" class="img-left">
+                                        <img src="https://placehold.co/98x80" alt="">
+                                    </a>
+                                    <div class="desc-right">
+                                        <h3><a href="#" title="">Jalur Mudik Pantura Kaligawe Semarang</a></h3>
+                                        <div class="sidebar-list_bottom">
+                                            <a href="#" title="" class="tagline">Megapolitan</a>
+                                            <div class="author author-sm">by <a href="#" title="">Mark Antonsen</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-horizontal">
+                                    <a href="#" title="" class="img-left">
+                                        <img src="https://placehold.co/98x80" alt="">
+                                    </a>
+                                    <div class="desc-right">
+                                        <h3><a href="#" title="">Kejagung Didorong Usut Tuntas Kasus Timah</a></h3>
+                                        <div class="sidebar-list_bottom">
+                                            <a href="#" title="" class="tagline">Megapolitan</a>
+                                            <div class="author author-sm">by <a href="#" title="">Mark Antonsen</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-horizontal">
+                                    <a href="#" title="" class="img-left">
+                                        <img src="https://placehold.co/98x80" alt="">
+                                    </a>
+                                    <div class="desc-right">
+                                        <h3><a href="#" title="">256 Warga Terdampak Banjir Lahar Gunung</a></h3>
+                                        <div class="sidebar-list_bottom">
+                                            <a href="#" title="" class="tagline">Megapolitan</a>
+                                            <div class="author author-sm">by <a href="#" title="">Mark Antonsen</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-horizontal">
+                                    <a href="#" title="" class="img-left">
+                                        <img src="https://placehold.co/98x80" alt="">
+                                    </a>
+                                    <div class="desc-right">
+                                        <h3><a href="#" title="">184.250 Penumpang Sesaki Bandara Soetta </a></h3>
+                                        <div class="sidebar-list_bottom">
+                                            <a href="#" title="" class="tagline">Megapolitan</a>
+                                            <div class="author author-sm">by <a href="#" title="">Mark Antonsen</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-horizontal">
+                                    <a href="#" title="" class="img-left">
+                                        <img src="https://placehold.co/98x80" alt="">
+                                    </a>
+                                    <div class="desc-right">
+                                        <h3><a href="#" title="">LPSK: Tak Mudah Pulangkan Mahasiswa </a></h3>
+                                        <div class="sidebar-list_bottom">
+                                            <a href="#" title="" class="tagline">Megapolitan</a>
+                                            <div class="author author-sm">by <a href="#" title="">Mark Antonsen</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-horizontal">
+                                    <a href="#" title="" class="img-left">
+                                        <img src="https://placehold.co/98x80" alt="">
+                                    </a>
+                                    <div class="desc-right">
+                                        <h3><a href="#" title="">Bandara APT Pranoto Samarinda Siap Hadapi</a></h3>
+                                        <div class="sidebar-list_bottom">
+                                            <a href="#" title="" class="tagline">Megapolitan</a>
+                                            <div class="author author-sm">by <a href="#" title="">Mark Antonsen</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-horizontal">
+                                    <a href="#" title="" class="img-left">
+                                        <img src="https://placehold.co/98x80" alt="">
+                                    </a>
+                                    <div class="desc-right">
+                                        <h3><a href="#" title="">Upaya LPSK Sikapi TPPO yang Semakin Beragam</a></h3>
+                                        <div class="sidebar-list_bottom">
+                                            <a href="#" title="" class="tagline">Megapolitan</a>
+                                            <div class="author author-sm">by <a href="#" title="">Mark Antonsen</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="#" title="" class="mi-link">Lihat Index Berita</a>
+                        </div>
+                        <div class="mi-sidebar_epaper">
+                            <h2>E-PAPER MEDIA INDONESIA</h2>
+                            <div class="sidebar-content">
+                                <img class="img-full" src="assets/images/e-paper.webp" alt="e paper">
+                                <a href="#" title="" class="btn btn-primary d-block text-center">Baca Edisi Hari Ini</a>
+                                <a href="#" title="" class="btn btn-secondary d-block text-center">Baca Edisi
+                                    Lainnya</a>
+                            </div>
+                        </div>
+                        <div class="mi-sidebar_category">
+                            <h2>KATEGORI PILIHANKU</h2>
+                            <h5>Pilih dan ikuti kategori agar tidak ketinggalan berita favorit anda</h5>
+                            <ul class="sidebar-category_list">
+                                <li>
+                                    <a href="#" title="">Polkam <img src="assets/images/add-circle-line.svg" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Fokus <img src="assets/images/add-circle-line.svg" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Ekonomi <img src="assets/images/add-circle-line.svg"
+                                            alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Megapolitan <img src="assets/images/add-circle-line.svg"
+                                            alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Opini <img src="assets/images/add-circle-line.svg" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Suara Anda <img src="assets/images/add-circle-line.svg"
+                                            alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Nusantara <img src="assets/images/add-circle-line.svg"
+                                            alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">Humaniora <img src="assets/images/add-circle-line.svg"
+                                            alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mi-sidebar-ads">
+                            <a href="#" title="">
+                                <img src="assets/images/ads-sidebar2.webp" class="img-full" alt="">
+                            </a>
+                        </div>
+                        <div class="mi-sidebar">
+                            <h2>ETALASE PRODUK MI</h2>
+                            <ul class="mi-sidebar_product">
+                                <li>
+                                    <div class="icon-product">
+                                        <img src="assets/images/premium-1.svg" alt="" width="40">
+                                    </div>
+                                    <div class="desc-product">
+                                        <h5>E Paper Premium 1 Bulan</h5>
+                                        <div class="list-inline">
+                                            <span>Rp 50.000</span>
+                                            <a href="#" title="">Lihat Detail</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-product">
+                                        <img src="assets/images/premium-2.svg" alt="" width="60">
+                                    </div>
+                                    <div class="desc-product">
+                                        <h5>E Paper Premium 1 Bulan</h5>
+                                        <div class="list-inline">
+                                            <span>Rp 50.000</span>
+                                            <a href="#" title="">Lihat Detail</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-product">
+                                        <img src="assets/images/premium-3.svg" alt="" width="60">
+                                    </div>
+                                    <div class="desc-product">
+                                        <h5>E Paper Premium 1 Bulan</h5>
+                                        <div class="list-inline">
+                                            <span>Rp 50.000</span>
+                                            <a href="#" title="">Lihat Detail</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mi-sidebar_announcement">
+                            <h2>PENGUMUMAN</h2>
+                            <ul class="announcement_list clearfix">
+                                <li>
+                                    <h5><a href="" title="">Bahar bin Smith Dilaporkan ke Polisi</a></h5>
+                                </li>
+                                <li>
+                                    <h5><a href="" title="">LPSK Dorong Aset Perusahaan Penyalur Mahasiswa Magang ke
+                                            Jerman Disita, Buat Apa?</a></h5>
+                                </li>
+                                <li>
+                                    <h5><a href="" title="">Sopir Bus di Sleman Jalani Tes Kesehatan hingga Narkoba</a>
+                                    </h5>
+                                </li>
+                                <li>
+                                    <h5><a href="" title="">Pj Gubernur Heru Budi Larang Sejumlah Kepala Dinas Libur
+                                            Panjang</a></h5>
+                                </li>
+                                <li>
+                                    <h5><a href="" title="">Sabtu, Polda Metro Buka Layanan SIM keliling Tersedia di 5
+                                            Lokasi</a></h5>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END:: CONTENT WRAPPER -->
+
+    <!-- START:: FOOTER -->
+    <div class="mi-footer">
+        <div class="mi-footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="index.html" class="mi-footer_logo" title="">
+                            <img src="assets/images/logo_footer.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Kategori</h5>
+                        <ul class="mi-footer_category clearfix">
+                            <li>
+                                <a href="#" title="">POLKAM</a>
+                            </li>
+                            <li>
+                                <a href="#" title="">FOKUS</a>
+                            </li>
+                            <li>
+                                <a href="#" title="">EKONOMI</a>
+                            </li>
+                            <li>
+                                <a href="#" title="">MEGAPOLITAN</a>
+                            </li>
+                            <li>
+                                <a href="#" title="">OPINI</a>
+                            </li>
+                            <li>
+                                <a href="#" title="">SUARA ANDA</a>
+                            </li>
+                            <li>
+                                <a href="#" title="">HUMANIORA</a>
+                            </li>
+                            <li>
+                                <a href="#" title="">NUSANTARA</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Ikuti Kami di</h5>
+                        <ul class="mi-footer_socmed clearfix">
+                            <li>
+                                <a href="#" title=""><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa-brands fa-x-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" title=""><i class="fa-brands fa-youtube"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mi-footer_bottom">
+            <div class="container">
+                <span class="copyright">Copyright @ 2021 Media Group - mediaindonesia, All Rights Reseerved</span>
+            </div>
+        </div>
+    </div>
+    <!-- END:: FOOTER -->
+</body>
+
+</html>
