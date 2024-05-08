@@ -283,17 +283,22 @@ button:focus:not(:focus-visible) {
     }
     .mi-header .mi-nav_main li {
         width: 100%;
+        border-top: 1px solid #DEDEDE;
+    }
+    .mi-header .mi-nav_main li:first-child {
+        border-top: none;
     }
     .mi-header .mi-nav_main li a,
     .mi-header .mi-nav_main li:first-child a,
     .mi-header .mi-nav_main li:last-child a {
-        padding: 10px;
+        padding: 10px 5px;
         font-size: 16px;
         display: block;
     }
     .mi-header .mi-nav_main {
         flex-direction: column;
         align-items: flex-start;
+        margin-bottom: 20px;
     }
     .mi-header .mi-header_tablet {
         display: flex;
@@ -322,7 +327,7 @@ button:focus:not(:focus-visible) {
 
 /* --- Start:: Footer --- */
 .mi-footer {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .mi-footer .mi-footer_top {
     background-color: #333333;
@@ -478,7 +483,7 @@ button:focus:not(:focus-visible) {
 }
 .mi-content .author {
     font-size: 14px;
-    color: #333333;
+    color: #777777;
     display: block;
     margin-bottom: 20px;
 }
@@ -487,6 +492,7 @@ button:focus:not(:focus-visible) {
 }
 .mi-content .author a {
     display: inline-block;
+    color: #333333;
     font-weight: 700;
 }
 .mi-content .main-article .author,
@@ -584,6 +590,9 @@ button:focus:not(:focus-visible) {
 .list_3col li {
     width: 33.333%;
 }
+.list_3col h3 {
+    margin-bottom: 0;
+}
 .mi-content .list_3col .author {
     margin-bottom: 0;
 }
@@ -596,7 +605,9 @@ button:focus:not(:focus-visible) {
 .mi-headline_list .list_3col {
     column-gap: 30px;
 }
-
+.mi-headline_list .list_3col h3 {
+    margin-bottom: 10px;
+}
 .mi-box-content {
     background-color: #F5F5F5;
     padding: 20px;
@@ -1018,11 +1029,20 @@ button:focus:not(:focus-visible) {
     font-weight: 700;
     color: #333333;
 }
+.mi-content .dc-opt_size {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    color: #333333;
+}
 .mi-content .dc-socmed,
 .mi-content .dc-socmed_list {
     display: flex;
     align-items: center;
     column-gap: 5px;
+}
+.mi-content .dc-socmed {
+    column-gap: 10px;
 }
 .mi-content .dc-socmed_list li a {
     display: flex;
@@ -1419,6 +1439,7 @@ button:focus:not(:focus-visible) {
     color: #333333;
     font-weight: 700;
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 .mi-sponsors .mi-sponsors_ecommerce img {
     width: 60px;
