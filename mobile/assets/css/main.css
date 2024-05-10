@@ -354,7 +354,7 @@ button:focus:not(:focus-visible) {
     text-transform: none;
 }
 .list-inline h3 {
-    margin-bottom: 5px;
+    margin-bottom: 0;
 }
 .desc-bottom {
     margin-top: 15px;
@@ -445,7 +445,34 @@ button:focus:not(:focus-visible) {
 .mi-content .list-inline .author {
     margin-bottom: 0;
 }
-
+.mi-content .mi-headline_list .list-inline li:first-child {
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 20px;
+    border-bottom: 1px solid #D9D9D9;
+    padding-bottom: 15px;
+}
+.mi-content .mi-headline_list .list-inline li:first-child .img-left,
+.mi-content .list-one-block li:first-child .img-left {
+    display: block;
+    width: 100%;
+}
+.mi-content .mi-headline_list .list-inline li:first-child .img-left img,
+.mi-content .list-one-block li:first-child .img-left img {
+    width: 100%;
+}
+.mi-content .mi-headline_list .list-inline li:first-child .author {
+    margin-bottom: 10px;
+}
+.mi-content .mi-headline_list h3 {
+    margin-bottom: 10px;
+}
+.mi-content .list-one-block li:first-child {
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 15px;
+    padding-bottom: 15px;
+}
 .mi-box-content {
     background-color: #F5F5F5;
     border-radius: 8px;
@@ -456,8 +483,8 @@ button:focus:not(:focus-visible) {
     font-size: 14px;
     font-weight: 700;
     color: #333333;
-    line-height: 1.5em;
-    margin-bottom: 5px;
+    line-height: 1em;
+    margin-bottom: 8px;
     text-transform: none;
     display: block;
 }
